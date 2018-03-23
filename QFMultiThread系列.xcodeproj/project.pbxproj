@@ -17,6 +17,9 @@
 		8518052C20319611007DCA37 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8518052B20319611007DCA37 /* BaseController.m */; };
 		85180530203196D9007DCA37 /* Demo_01_NSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8518052F203196D9007DCA37 /* Demo_01_NSThread.m */; };
 		851809BF2064979100846BE6 /* Demo02_dispatch_set_target_queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809BE2064979100846BE6 /* Demo02_dispatch_set_target_queue.m */; };
+		851809C22064E76A00846BE6 /* Demo03_dispatch_async.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C12064E76A00846BE6 /* Demo03_dispatch_async.m */; };
+		851809C52064E8D600846BE6 /* Demo04_dispatch_sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */; };
+		851809C82064EA3900846BE6 /* Demo05_dispatch_after.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,12 @@
 		8518052F203196D9007DCA37 /* Demo_01_NSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_01_NSThread.m; sourceTree = "<group>"; };
 		851809BD2064979100846BE6 /* Demo02_dispatch_set_target_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo02_dispatch_set_target_queue.h; sourceTree = "<group>"; };
 		851809BE2064979100846BE6 /* Demo02_dispatch_set_target_queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo02_dispatch_set_target_queue.m; sourceTree = "<group>"; };
+		851809C02064E76A00846BE6 /* Demo03_dispatch_async.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo03_dispatch_async.h; sourceTree = "<group>"; };
+		851809C12064E76A00846BE6 /* Demo03_dispatch_async.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo03_dispatch_async.m; sourceTree = "<group>"; };
+		851809C32064E8D600846BE6 /* Demo04_dispatch_sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo04_dispatch_sync.h; sourceTree = "<group>"; };
+		851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo04_dispatch_sync.m; sourceTree = "<group>"; };
+		851809C62064EA3900846BE6 /* Demo05_dispatch_after.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo05_dispatch_after.h; sourceTree = "<group>"; };
+		851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo05_dispatch_after.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +157,12 @@
 				8518052F203196D9007DCA37 /* Demo_01_NSThread.m */,
 				851809BD2064979100846BE6 /* Demo02_dispatch_set_target_queue.h */,
 				851809BE2064979100846BE6 /* Demo02_dispatch_set_target_queue.m */,
+				851809C02064E76A00846BE6 /* Demo03_dispatch_async.h */,
+				851809C12064E76A00846BE6 /* Demo03_dispatch_async.m */,
+				851809C32064E8D600846BE6 /* Demo04_dispatch_sync.h */,
+				851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */,
+				851809C62064EA3900846BE6 /* Demo05_dispatch_after.h */,
+				851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -287,7 +302,10 @@
 				851809BF2064979100846BE6 /* Demo02_dispatch_set_target_queue.m in Sources */,
 				851804FD20319505007DCA37 /* ViewController.m in Sources */,
 				85180530203196D9007DCA37 /* Demo_01_NSThread.m in Sources */,
+				851809C82064EA3900846BE6 /* Demo05_dispatch_after.m in Sources */,
+				851809C22064E76A00846BE6 /* Demo03_dispatch_async.m in Sources */,
 				8518050820319505007DCA37 /* main.m in Sources */,
+				851809C52064E8D600846BE6 /* Demo04_dispatch_sync.m in Sources */,
 				8518052C20319611007DCA37 /* BaseController.m in Sources */,
 				851804FA20319505007DCA37 /* AppDelegate.m in Sources */,
 			);

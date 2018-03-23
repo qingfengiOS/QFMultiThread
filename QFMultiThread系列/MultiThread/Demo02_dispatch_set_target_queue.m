@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self proprity];
+//    [self proprity];
     
     [self mutaiQueue];
 }
@@ -31,13 +31,16 @@
     // 第一个参数为要设置优先级的queue,第二个参数是参照物，既将第一个queue的优先级和第二个queue的优先级设置一样。
     dispatch_set_target_queue(targetQueue, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0));
     
-    dispatch_async(targetQueue, ^{
-        NSLog(@"低优先级");
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSLog(@"globalQueue执行的");
     });
     
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"高优先级");
+    dispatch_async(targetQueue, ^{
+        NSLog(@"targetQueue执行的");
     });
+    /*
+     结论：这两个函数，哪个写在前面就执行哪个，他们的优先级是一样的
+     */
 }
 
 - (void)mutaiQueue {
@@ -52,6 +55,8 @@
     dispatch_set_target_queue(queue, targetQueue);
     dispatch_set_target_queue(queue2, targetQueue);
     dispatch_set_target_queue(queue3, targetQueue);
+    
+    
     
     dispatch_async(queue, ^{
         NSLog(@"queue1 star");
@@ -73,7 +78,9 @@
     
     /*
      当我们想让不同队列中的任务同步的执行时，我们可以创建一个串行队列，然后将这些队列的target指向新创建的队列
+     写在前面的先执行，他们的优先级是一样的
      */
+    
     
 }
 

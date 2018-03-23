@@ -10,6 +10,9 @@
 
 #import "Demo_01_NSThread.h"
 #import "Demo02_dispatch_set_target_queue.h"
+#import "Demo03_dispatch_async.h"
+#import "Demo04_dispatch_sync.h"
+#import "Demo05_dispatch_after.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,8 +36,10 @@
     self.dataArray = [NSMutableArray arrayWithObjects:
                       @"Demo_01_NSThread",
                       @"Demo02_dispatch_set_target_queue",
+                      @"Demo03_dispatch_async",
+                      @"Demo04_dispatch_sync",
+                      @"Demo05_dispatch_after",
                       nil];
-    
     
 }
 
