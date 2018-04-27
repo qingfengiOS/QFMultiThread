@@ -13,6 +13,7 @@
 #import "Demo03_dispatch_async.h"
 #import "Demo04_dispatch_sync.h"
 #import "Demo05_dispatch_after.h"
+#import "Demo06_dispatch_barriers.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -39,6 +40,7 @@
                       @"Demo03_dispatch_async",
                       @"Demo04_dispatch_sync",
                       @"Demo05_dispatch_after",
+                      @"Demo06_dispatch_barriers",
                       nil];
     
 }

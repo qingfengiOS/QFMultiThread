@@ -20,6 +20,7 @@
 		851809C22064E76A00846BE6 /* Demo03_dispatch_async.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C12064E76A00846BE6 /* Demo03_dispatch_async.m */; };
 		851809C52064E8D600846BE6 /* Demo04_dispatch_sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */; };
 		851809C82064EA3900846BE6 /* Demo05_dispatch_after.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */; };
+		85C790002092F5330005027F /* Demo06_dispatch_barriers.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo04_dispatch_sync.m; sourceTree = "<group>"; };
 		851809C62064EA3900846BE6 /* Demo05_dispatch_after.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo05_dispatch_after.h; sourceTree = "<group>"; };
 		851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo05_dispatch_after.m; sourceTree = "<group>"; };
+		85C78FFE2092F5330005027F /* Demo06_dispatch_barriers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo06_dispatch_barriers.h; sourceTree = "<group>"; };
+		85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo06_dispatch_barriers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				851809C42064E8D600846BE6 /* Demo04_dispatch_sync.m */,
 				851809C62064EA3900846BE6 /* Demo05_dispatch_after.h */,
 				851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */,
+				85C78FFE2092F5330005027F /* Demo06_dispatch_barriers.h */,
+				85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C790002092F5330005027F /* Demo06_dispatch_barriers.m in Sources */,
 				851809BF2064979100846BE6 /* Demo02_dispatch_set_target_queue.m in Sources */,
 				851804FD20319505007DCA37 /* ViewController.m in Sources */,
 				85180530203196D9007DCA37 /* Demo_01_NSThread.m in Sources */,
