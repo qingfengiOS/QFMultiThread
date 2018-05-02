@@ -41,6 +41,7 @@
                       @"Demo04_dispatch_sync",
                       @"Demo05_dispatch_after",
                       @"Demo06_dispatch_barriers",
+                      @"Demo07_dispatch_source",
                       nil];
     
 }

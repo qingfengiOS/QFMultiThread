@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     //NSThread类方法使用线程
     [NSThread detachNewThreadSelector:@selector(testThread:) toTarget:self withObject:nil];
     
