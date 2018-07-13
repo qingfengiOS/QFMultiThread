@@ -22,6 +22,7 @@
 		851809C82064EA3900846BE6 /* Demo05_dispatch_after.m in Sources */ = {isa = PBXBuildFile; fileRef = 851809C72064EA3900846BE6 /* Demo05_dispatch_after.m */; };
 		852FAAE720999F1900FB639A /* Demo07_dispatch_source.m in Sources */ = {isa = PBXBuildFile; fileRef = 852FAAE620999F1900FB639A /* Demo07_dispatch_source.m */; };
 		85C790002092F5330005027F /* Demo06_dispatch_barriers.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */; };
+		FD5F286A20F8509700D67964 /* Demo08_dispatch_semaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F286920F8509700D67964 /* Demo08_dispatch_semaphore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		852FAAE620999F1900FB639A /* Demo07_dispatch_source.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo07_dispatch_source.m; sourceTree = "<group>"; };
 		85C78FFE2092F5330005027F /* Demo06_dispatch_barriers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo06_dispatch_barriers.h; sourceTree = "<group>"; };
 		85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo06_dispatch_barriers.m; sourceTree = "<group>"; };
+		FD5F286820F8509700D67964 /* Demo08_dispatch_semaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo08_dispatch_semaphore.h; sourceTree = "<group>"; };
+		FD5F286920F8509700D67964 /* Demo08_dispatch_semaphore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo08_dispatch_semaphore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 				85C78FFF2092F5330005027F /* Demo06_dispatch_barriers.m */,
 				852FAAE520999F1900FB639A /* Demo07_dispatch_source.h */,
 				852FAAE620999F1900FB639A /* Demo07_dispatch_source.m */,
+				FD5F286820F8509700D67964 /* Demo08_dispatch_semaphore.h */,
+				FD5F286920F8509700D67964 /* Demo08_dispatch_semaphore.m */,
 			);
 			path = MultiThread;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				851804FD20319505007DCA37 /* ViewController.m in Sources */,
 				85180530203196D9007DCA37 /* Demo_01_NSThread.m in Sources */,
 				852FAAE720999F1900FB639A /* Demo07_dispatch_source.m in Sources */,
+				FD5F286A20F8509700D67964 /* Demo08_dispatch_semaphore.m in Sources */,
 				851809C82064EA3900846BE6 /* Demo05_dispatch_after.m in Sources */,
 				851809C22064E76A00846BE6 /* Demo03_dispatch_async.m in Sources */,
 				8518050820319505007DCA37 /* main.m in Sources */,

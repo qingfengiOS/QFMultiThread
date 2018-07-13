@@ -8,13 +8,6 @@
 
 #import "ViewController.h"
 
-#import "Demo_01_NSThread.h"
-#import "Demo02_dispatch_set_target_queue.h"
-#import "Demo03_dispatch_async.h"
-#import "Demo04_dispatch_sync.h"
-#import "Demo05_dispatch_after.h"
-#import "Demo06_dispatch_barriers.h"
-
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -42,6 +35,7 @@
                       @"Demo05_dispatch_after",
                       @"Demo06_dispatch_barriers",
                       @"Demo07_dispatch_source",
+                      @"Demo08_dispatch_semaphore",
                       nil];
     
 }
