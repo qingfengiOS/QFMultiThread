@@ -36,6 +36,7 @@
                       @"Demo06_dispatch_barriers",
                       @"Demo07_dispatch_source",
                       @"Demo08_dispatch_semaphore",
+                      @"Demo09_dispatch_group",//使用dispatch_group和dispatch_semaphore串行请求
                       nil];
     
 }
